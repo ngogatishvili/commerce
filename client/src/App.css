@@ -1,4 +1,4 @@
-header {
+/* header {
   background:#404040;
   padding:1rem;
 }
@@ -8,10 +8,17 @@ header a {
   font-weight:bold;
   color:#fff;
 
+} */
+body {
+  margin:0;
+}
+
+.site-container {
+  min-height:100vh;
 }
 
 main {
-  padding:1rem;
+  flex:1;
 }
 .products {
   display:flex;
@@ -32,4 +39,16 @@ main {
 .product img {
   width:100%;
   max-width:400px;
+}
+
+.rating span {
+  color:#ffc000;
+}
+
+.btn-primary {
+  background-color:#f0c040;
+  color:#000;
+}
+.img-large {
+  max-width:100%;
 }
